@@ -9,10 +9,10 @@ Project page: https://roadmap.sh/projects/nginx-log-analyser
 Download the sample log from the project page and save it in this directory as `nginx-access.log`.
 
 ```bash
-bash awk.sh
+bash analyse.sh
 ```
 
-The report is written to `nginx-access-output.log`.
+The report is written to the terminal.
 
 ## Output
 
@@ -36,4 +36,4 @@ The path includes the query string. The status is the code that follows the requ
 
 ## Note
 
-AI was used to analyse the problem, to build a learning roadmap and practice plan, to generate the tests, and as a rubber duck. All research and the resulting solution in `awk.sh` was written by hand.
+AI was used to analyse the problem, to build a learning roadmap and practice plan, to generate the tests, and as a rubber duck. All research and the resulting solution in `analyse.sh` was written by hand.
