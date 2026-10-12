@@ -1,39 +1,51 @@
-# Nginx log analyser
+# DevOps Practice Projects
 
-A shell script that reads an nginx combined access log and prints the top 5 IP addresses, request paths, response status codes, and user agents.
+This repository contains my solutions and work for various DevOps projects, ranging from beginner to advanced levels. These projects are based on the roadmap.sh DevOps project ideas.
 
-Project page: https://roadmap.sh/projects/nginx-log-analyser
+## Project Structure
 
-## Run
+Each project is contained in its own directory under the `projects/` folder.
 
-Download the sample log from the project page and save it in this directory as `nginx-access.log`.
+## Projects List
 
-```bash
-bash analyse.sh
-```
+### Beginner Projects
 
-The report is written to the terminal.
+1. Server Performance Stats
+2. Log Archive Tool
+3. [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser) ✅
+4. GitHub Pages Deployment
+5. SSH Remote Server Setup
+6. Static Site Server
+7. Basic DNS Setup
+8. Simple Monitoring
+9. Dummy Systemd Service
+10. Basic Dockerfile
+11. EC2 Instance
 
-## Output
+### Intermediate Projects
 
-Each section is highest count first:
+1. Configuration Management (Ansible)
+2. IaC on DigitalOcean (Terraform)
+3. Node.js Service Deployment (CI/CD)
+4. Dockerized Service
+5. Multi-Container Application (Docker Compose)
+6. Automated DB Backups
 
-```text
-Top 5 IP addresses with the most requests:
-<ip> - <n> requests
+### Advanced Projects
 
-Top 5 most requested paths:
-<path> - <n> requests
+1. Blue-Green Deployment
+2. Prometheus and Grafana
+3. Multi-Service Application
+4. Service Discovery
 
-Top 5 response status codes:
-<code> - <n> requests
+## Getting Started
 
-Top 5 user agents:
-<agent> - <n> requests
-```
+To explore a specific project:
 
-The path includes the query string. The status is the code that follows the request, including lines whose request is not three tokens.
+1. Navigate to the project's directory in the `projects/` folder.
+2. Read the project-specific README for details and instructions.
+3. Examine the code and configurations.
 
-## Note
+## Acknowledgments
 
-AI was used to analyse the problem, to build a learning roadmap and practice plan, to generate the tests, and as a rubber duck. All research and the resulting solution in `analyse.sh` was written by hand.
+These project ideas are from the DevOps roadmap from [roadmap.sh](https://roadmap.sh).
